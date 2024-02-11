@@ -5,7 +5,8 @@
 This is a block comment
 */
 
-int main(){
+int main()
+{
     std::cout << "Hello world" << std::endl;
     return 0;
 }

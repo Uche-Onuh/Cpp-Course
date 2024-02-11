@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main(){
+int main()
+{
     /*
     // ramdom numbers
     int elephant_count;
@@ -28,27 +29,26 @@ int main(){
     std::cout << "Domestic animal count : " << domesticated_animals << std::endl;
 */
 
-// functional Initialization
-/*
-    int apple_count(5);
-    int orange_count(15);
-    int fruit_count (apple_count + orange_count);
+    // functional Initialization
+    /*
+        int apple_count(5);
+        int orange_count(15);
+        int fruit_count (apple_count + orange_count);
 
-    // info lost
-    int narrowing_conversion_functional(2.9);
+        // info lost
+        int narrowing_conversion_functional(2.9);
 
-    std::cout << "apple count : " << apple_count << std::endl;
-    std::cout << "orange count : " << orange_count << std::endl;
-    std::cout << "fruit count : " << fruit_count << std::endl;
-    std::cout << "narrowed count : " << narrowing_conversion_functional << std::endl;
-*/
+        std::cout << "apple count : " << apple_count << std::endl;
+        std::cout << "orange count : " << orange_count << std::endl;
+        std::cout << "fruit count : " << fruit_count << std::endl;
+        std::cout << "narrowed count : " << narrowing_conversion_functional << std::endl;
+    */
 
-// Assignment
+    // Assignment
     int bike_count = 2;
     int truck_count = 7;
     int vehicle_count = bike_count + truck_count;
     int narrowing_conversion_functional = 2.9;
-
 
     std::cout << "Bike count : " << bike_count << std::endl;
     std::cout << "Truck count : " << truck_count << std::endl;
@@ -58,6 +58,6 @@ int main(){
     // check size
     std::cout << "sizeof int: " << sizeof(int) << std::endl;
     std::cout << "sizeof truck_count: " << sizeof(truck_count) << std::endl;
-    
+
     return 0;
 }
